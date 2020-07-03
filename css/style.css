@@ -301,7 +301,7 @@ p{
 
 .works{
   background: #ffffff;
-  padding: 125px;
+  padding: 125px 0;
 }
 
 .works__title{
@@ -706,6 +706,7 @@ p{
   line-height: 100%;
   color: #212121;
   margin-bottom: 20px;
+  transition: 0.4s;
 }
 
 .blog__item__title:hover{
@@ -743,3 +744,175 @@ p{
 }
 
 /* END Blog */
+
+/* Footer */
+
+.footer{
+  background: #212121;
+  height: 100px;
+  padding: 35px 0;
+}
+
+.footer__autor{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #00897b;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__autor:hover{
+  color: #00897b;
+}
+
+/* END Footer */
+
+/* Adapt */
+
+@media (max-width: 1199px){
+
+  .services__item__btn{
+    width: 100%;
+  }
+
+  .footer__autor{
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 991px){
+
+  .header__logo{
+    display: inline-block;
+    margin: 0 43% 20px;
+  }
+
+  .header__menu{
+    text-align: center;
+  }
+
+  .main__title{
+    font-size: 50px;
+  }
+
+  .main__btn:last-child{
+    margin-top: 20px;
+  }
+
+  .about__item__img{
+    margin-bottom: 20px;
+  }
+
+  .about__item__text{
+    margin-bottom: 50px;
+  }
+
+  .pricing__item{
+    margin-bottom: 50px;
+  }
+
+  .team__item{
+    margin-bottom: 30px;
+  }
+
+  .blog__a{
+    width: 100%;
+  }
+
+  .blog__item{
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 767px){
+
+  .header__logo{
+    margin: 0 40% 40px;
+  }
+
+  .header__menu{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__menu__item{
+    font-size: 15px;
+  }
+
+  .main__title{
+    font-size: 40px;
+  }
+
+  .main__text{
+    font-size: 18px;
+  }
+
+  .about__text{
+    width: 100%;
+  }
+
+  .services__text{
+    width: 100%;
+  }
+
+  .works__text{
+    width: 100%;
+  }
+
+  .works__btns{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .works__btns__btn{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .pricing__text{
+    width: 100%;
+  }
+
+  .team__text{
+    width: 100%;
+  }
+
+  .blog__text{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 521px){
+  .main__title{
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 509px){
+  .header__logo{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 483px){
+
+  .header__menu{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .header__menu__item{
+    margin-bottom: 20px;
+  }
+
+}
+
+/* END Adapt */
