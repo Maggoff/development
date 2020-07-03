@@ -694,6 +694,10 @@ p{
   margin: 0 auto 100px;
 }
 
+.blog__a{
+  margin-bottom: 30px;
+}
+
 .blog__img{
   width: 100%;
 }
